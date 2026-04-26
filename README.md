@@ -24,15 +24,32 @@ All work is implemented using Jupyter Notebooks for clarity and step-by-step lea
 
 ### 1. Movie Genre Classification
 
-A model that predicts the genre of a movie based on input features such as text or metadata.
+A Natural Language Processing (NLP) project that predicts the genre of a movie based on its plot description.
+
+**Key Features:**
+
+* Text preprocessing (cleaning, normalization, noise removal)
+* TF-IDF vectorization with unigrams and bigrams
+* Handling imbalanced dataset across multiple genres
+* Automatic model comparison and selection
+
+**Modeling Approach:**
+
+* Logistic Regression
+* Multinomial Naive Bayes
+* Linear Support Vector Machine (SVM)
+* Best model selected based on validation accuracy
+
+**Workflow:**
+Raw text → Cleaned text → TF-IDF features → Model training → Evaluation → Prediction
 
 **Focus areas:**
 
-* Text preprocessing
-* Feature extraction
-* Classification models
+* Natural Language Processing (NLP)
+* Feature extraction from text data
+* Model comparison and evaluation
+* Multi-class classification
 
----
 
 ### 2. Customer Churn Prediction
 
